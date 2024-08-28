@@ -30,6 +30,10 @@ In the game.c file you will find these line:
 #define SPEED 800
 ```
 
-The NUM_FOOD and SPEED are self explanatory, but the window height/width and pixel size kinda relate to eachother
+NUM_FOOD is how much food will be on the screen at any given time.
 
-For example: if you just changed PIXEL_SIZE to 200, then your window height would be 200x20=400 pixel tall in total, which is likely too tall for your monitor
+SPEED ranges from 1-999, higher number being faster.  To be specific the time it takes the snake to take each step will be (1000 - SPEED) milliseconds.
+
+The window height/width and pixel size kinda relate to eachother
+
+For example: if you just changed PIXEL_SIZE to 200, then your window height would be 200x20=4000 pixel tall in total, which is likely too tall for your monitor
