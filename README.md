@@ -2,6 +2,7 @@
 
 ### Dependencies
 - sdl2
+- clang
 
 ## To Use
 run these commands:
