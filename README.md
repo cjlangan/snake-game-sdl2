@@ -9,6 +9,7 @@ run these commands:
 
 ```bash
 git clone https://github.com/cjlangan/snake-game-sdl2
+cd snake-game-sdl2
 make
 ```
 
